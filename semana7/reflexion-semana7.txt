@@ -1,0 +1,16 @@
+Cuando los reportes son públicos o consultables para la comunidad, 
+se elimina la duplicidad de esfuerzos (varias personas reportando lo mismo) y se genera confianza. 
+Los vecinos o usuarios pueden ver en tiempo real qué problemas ya han sido detectados, 
+cuáles están en proceso de solución y cuáles han sido resueltos.
+
+Para los administradores de la plataforma o los encargados de resolver los problemas, 
+tener los datos organizados les permite identificar patrones.
+Si la plataforma muestra que hay un fallo recurrente en un sector específico, 
+se puede atacar la causa raíz en lugar de solo poner "parches" temporales.
+
+Un reporte digital no se pierde. Cada incidencia puede seguir un flujo de estados claro (por ejemplo: Abierto ➜ En Proceso ➜ Resuelto). Esto permite medir los tiempos de respuesta, asignar responsables específicos y mantener a la comunidad informada de forma automática sin necesidad de intermediarios.
+
+Como estás trabajando en el desarrollo de servidores para registro 
+y gestión de incidencias, estructurar bien estos dos flujos 
+(POST para registrar y GET para consultar) es justamente el motor 
+técnico que hace posible este impacto social.
