@@ -1,0 +1,31 @@
+Cuando realizo la prueba de registro de datos POST
+en thunder clients recibo la respuesta:
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 3,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+Cuando consulto la ruta GET me aparece lo siguiente:
+
+[
+  {
+    "id": 1,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  },
+  {
+    "id": 3,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
